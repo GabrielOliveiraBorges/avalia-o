@@ -14,8 +14,7 @@ class Program
         string entrada3 = Console.ReadLine().ToLower();
 
         string animal = "";
-        
-    
+
         if (entrada1 == "vertebrado")
         {
             if (entrada2 == "ave")
@@ -32,7 +31,6 @@ class Program
                 else if (entrada3 == "herbivoro")
                     animal = "vaca";
             }
-        }
         }
         else if (entrada1 == "invertebrado")
         {
@@ -52,7 +50,6 @@ class Program
             }
         }
 
-     Console.WriteLine(animal.ToUpper());
-
+        Console.WriteLine(animal.ToUpper());
     }
 }
